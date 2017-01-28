@@ -14,6 +14,7 @@ private:
 	int _numberOfVerts;
 public:
 	Model(std::vector<float> data, std::vector<unsigned int> indices);
+	Model(const char * path);
 	~Model();
 
 	GLuint getVao() { return _vaoID; }

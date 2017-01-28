@@ -18,6 +18,10 @@ Model::Model(std::vector<float> data, std::vector<unsigned int> indices)
 	_numberOfVerts = indices.size();
 }
 
+Model::Model(const char * path)
+{
+}
+
 Model::~Model()
 {
 }
